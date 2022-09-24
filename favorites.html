@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+</head>
+<body>
+    <h1>Interests</h1><!--Heading-->
+        <p>I love cats but don't want to get one.</p><!--Paragraph-->
+        <p>I plan on pursuing a comp-sci-related career.</p><!--Paragraph-->
+    <h2>Hobbies</h2><!--Heading-->
+        <ul><!--List-->
+            <li>listening to music</li>
+            <li>playing League</li>
+        </ul>
+    <img src="images/cute_cat.jpg"  width= 300 height= 320 alt="Cute Cat"><!--Image-->
+    <img src="images/music.jpg"  width= 300 height= 320 alt="Music"><!--Image-->
+    <div class="Links"><!--Generic container-->
+        <a href="images/cute_cat.jpg" download> Download Cat Image</a><!--Relative link-->
+        <audio controls><!--Audio-->
+            <source src="mp/meow.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>For more cute cat pictures, click:</p>
+        <a href="https://www.womansday.com/life/g32979681/cute-cat-photos/">More Cute Cats</a><!--Absolute link-->
+        <p>Cute cat complications:</p>
+        <video width="320" height="240" controls><!--Video-->
+            <source src="mp/cats.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <form class="form"><!--Form-->
+        <label for="like">Do you like cats?</label><br>
+        <input type="text" placeholder="yes">
+        <button type="submit">Submit</button>
+    </form> 
+    <p>Clicking submite will send your answer the page: /like_cats.php</p>
+    <h3>More Pages:</h3>
+        <nav><!--Semantic container-->
+            <a href="index.html">Home Page</a>
+            <a href="skills.html">Skills</a>
+            <a href="spots.html">NYC Spots</a>
+        </nav>
+    <span>&copy;MichelleL_86</span><!--Copyright symbol-->
+</body>
+</html>
